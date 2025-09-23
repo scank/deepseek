@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="8dp"
+    android:elevation="8dp">
+
+    <!-- 功能按钮1 -->
+    <Button
+        android:id="@+id/empty_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="清空所有信息"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textAllCaps="false"
+        tools:ignore="SmallSp" />
+
+    <!-- 分隔线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="4dp"
+        android:background="#66FFFFFF"/>
+
+    <!-- 功能按钮2 -->
+    <Button
+        android:id="@+id/delect_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="删除当前会话"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textAllCaps="false"
+        tools:ignore="SmallSp" />
+
+</LinearLayout>

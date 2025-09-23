@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- 头部 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Menu"
+        android:gravity="center"/>
+
+    <!-- 菜单项 -->
+
+    <Button
+        android:id="@+id/btn_tags"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_primary"
+        android:text="智能体管理"/>
+
+    <Button
+        android:id="@+id/btn_settings"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/btn_primary"
+        android:text="设置"/>
+
+    <Button
+        android:id="@+id/btn_new"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_primary"
+        android:text="新建智能体" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LeftSlideAnimation">
+        <!-- 进入动画（从左侧滑入） -->
+        <item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <!-- 退出动画（向左侧滑出） -->
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+</resources>

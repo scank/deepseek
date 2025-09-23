@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="model_names">
+        <item>deepseek-ai/DeepSeek-R1</item>
+        <item>deepseek-coder</item>
+        <item>deepseek-reasoner</item>
+        <item>deepseek-chat</item>
+    </string-array>
+</resources>
