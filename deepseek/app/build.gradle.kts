@@ -24,6 +24,9 @@ android {
                 "proguard-rules.pro"
             )
         }
+        debug {
+            applicationIdSuffix = ".free"
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11

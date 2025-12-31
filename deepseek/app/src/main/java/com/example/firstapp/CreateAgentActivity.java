@@ -105,7 +105,7 @@ public class CreateAgentActivity extends AppCompatActivity {
                     globalApiKey, // 使用全局Key
                     model,
                     temperature,
-                    8000, // maxTokens
+                    8192, // maxTokens
                     topP,
                     name,
                     systemPrompt

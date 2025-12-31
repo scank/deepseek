@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="swipe_down_threshold">400dp</dimen>
+    <dimen name="swipe_velocity_threshold">50dp</dimen>
+    <dimen name="slide_edge_width">50dp</dimen>
+</resources>

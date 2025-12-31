@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="model_names">
+        <item>deepseek-chat</item>
+        <item>deepseek-reasoner</item>
+        <item>next is free</item>
+        <item>deepseek-ai/DeepSeek-R1-Distill-Qwen-7B</item>
+        <item>deepseek-ai/DeepSeek-R1-Distill-Qwen-14B</item>
+        <item>deepseek-ai/DeepSeek-R1-Distill-Qwen-32B</item>
+        <item>deepseek-ai/DeepSeek-R1</item>
+        <item>ascend-tribe/pangu-pro-moe</item>
+    </string-array>
+</resources>

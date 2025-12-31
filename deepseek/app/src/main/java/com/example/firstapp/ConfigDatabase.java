@@ -27,7 +27,7 @@ public class ConfigDatabase extends SQLiteOpenHelper {
                     + COLUMN_API_KEY + " TEXT NOT NULL,"
                     + COLUMN_MODEL + " TEXT NOT NULL,"
                     + COLUMN_TEMPERATURE + " REAL DEFAULT 0.7,"
-                    + COLUMN_MAX_TOKENS + " INTEGER DEFAULT 2000,"
+                    + COLUMN_MAX_TOKENS + " INTEGER DEFAULT 8192,"
                     + COLUMN_TOP_P + " REAL DEFAULT 1.0,"
                     + COLUMN_API_NAME + " TEXT,"
                     + COLUMN_SYSTEM_PROMPT + " TEXT)";
